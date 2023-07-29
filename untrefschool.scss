@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #181823;
+}
+.nav-item {
+    display: flex;
+    padding: 12px 8px;
+    align-items: center;
+    gap: 8px;
+    padding: 18px 16px;
+
+}
+
+.nav-item:hover{
+    transition: 1.5s;
+    position: static;
+    background-color: #b7bebe;
+        a{
+            transition: 2s;
+            color: #EFF5F5;
+        }
+}
+
+.logo {
+    align-self: center;
+}
+
+nav {
+    font-family: 'Belanosima';
+    color: #181823;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    align-items: center;
+    gap: 48px;
+    border-bottom: 1px solid #DDE1E6;
+    position: sticky; top: 0;
+    background-color: #EFF5F5;
+}
+.nav-wrap {
+    display: flex;
+}
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-image: url('/Projecto-integrador/hero.jpg');
+    display: flex;
+}
+.wrap-hero-text {
+    display: flex;
+    width: 600px;
+    padding: 0px 0px 80px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px; 
+    margin: 100px 0px 0px 100px;
+}
+.hero-text {
+    display: flex;
+    width: 620px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    color: #181823;
+    font-family: 'Poppins';
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 110%;
+}
+h2 {
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.hero-button {
+    color: #EFF5F5;
+    background-color: #FC7300;
+    border:2px solid #FC7300;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding: 16px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px; 
+}
+.hero-button:hover {
+    background-color: #1F8A70;
+    border: 2px solid #1F8A70;
+    cursor: pointer;
+}
+article {
+    display: flex;
+    height: 580px;
+    padding: 10px 40px;
+    align-items: center;
+    gap: 80px;
+}
+.somos-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 650px;
+    padding-top: 80px;
+}
+.somos-text {
+    font-weight: 400;
+    line-height: 140%;
+}
+p {
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.hero-p {
+    font-weight: 400;
+}
+.wrap-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.elegirnos-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    padding-top: 160px;
+    padding-left: 40px;
+}
+.img-elegirnos {
+    padding: 80px;
+}
+.propuesta {
+    padding-top: 80px;
+    background-image: url(/Projecto-integrador/propuesta-fondo.jpg);
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 220px;
+    width: 320px;
+}
+.propuesta-text {
+    width: 275px;
+    text-align: center;
+}
+.icon-wrap {
+    height: 90px;
+}
+.noticias {
+    background-color: #EFF5F5;
+}
+h4{
+    margin: 0mm;
+    color: #717171;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1px;  
+}
+.h-noti {
+    line-height: 0%;
+    font-size: 48px;
+}
+.titulo-noticias {
+    display: flex;
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.noti-cards {
+    display: flex;
+    height: 510px;
+    padding: 80px;
+    align-items: center;
+    gap: 64px; 
+}
+.card-texto {
+    display: flex;
+    width: 590px;
+    height: 300px;
+    padding: 48px 16px;
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+}
+.seguir {
+    color: #FC7300;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border: none;
+    background-color: #ffffff;
+    float: right;
+    margin: 20px;
+}
+.seguir:hover{
+    cursor: pointer;
+    transition: 1.5s;
+    margin-right: 10px;
+}
+h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+    padding-left: 18px;
+}
+.card-1, .card-2 {
+    background-color: white;
+}
+.noticias-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding: 0px 20px;
+}
+footer {
+    color: #ffffff;
+    background-color: #181823;
+    height: 510px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+h5 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.redes {
+    padding-left: 50px;
+    min-width: 410px;
+}
+.mapa{
+    text-align: center;
+    min-width: 410px;
+}
+.contacto {
+    text-align: right;
+    padding-right: 50px;
+    min-width: 410px;
+}
+.brand-icon {
+    display: flex;
+    align-items: center;
+}
+i{
+    margin-right: 20px;
+    width: 27px;
+}
+aside {
+    background-color: #181823;
+    margin: none;
+}
+.copy {
+    border-top: solid 2px #C1C7CD;
+    margin: 0px 0px ;
+    padding-top: 10px;
+    height: 30px;
+    color: #EFF5F5;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-contacto {
+    display: flex;
+    padding: 40px 80px;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1 0 0;
+    align-self: stretch; 
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px; 
+}
+.input-form {
+    display: flex;
+    width: 620px;
+    flex-direction: column;
+    gap: 6px;
+    align-self: stretch;
+    font-family: 'Poppins';
+    margin-bottom: 18px;
+}
+label {
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+#nombre,#telefono,#email,#comment {
+    background-color: #F2F4F8;
+    border: none;
+    border-bottom: 1px solid #C1C7CD;
+    height: 46px;
+    padding: 0px 16px;
+    font-size: 16px;
+}
+.wrap-submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.submit-button {
+    display: flex;
+    color: #EFF5F5;
+    background-color: #FC7300;
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    width: 170px;
+    padding: 16px 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.submit-button:hover {
+    background-color: #1F8A70;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-image: url(/Projecto-integrador/hero-tablet.jpg);
+        height: 1048px;
+        .wrap-hero-text {
+            display: block;
+            margin: 0px;
+            padding: 0px 40px;
+        }
+    }
+    .article-somos {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1000px;
+        gap: 10px;
+        margin-top: -120px;
+    }
+    .article-elegirnos {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        gap: 10px;
+        margin-top: -120px;
+    }
+    .noti-cards {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .titulo-propuesta {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+    .titulo-noticias {
+        padding-top: 200px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1050px;
+        width: 100%;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 0px
+    }
+    .brand-icon {
+        justify-content: center;
+        padding-right: 40px;
+    }
+    .contacto {
+        text-align: center;
+        min-width: 0px;
+        padding: 40px 0px;
+    }
+    .mapa {
+        margin-top: 20px;
+    }
+    h5 {
+        margin-bottom: 15px;
+    }
+    .img-contacto {
+        display: none;
+    }
+    .form-contacto {
+        gap: 0px;
+    }
+    
+}
+
+@media (max-width: 361px) {
+    nav {
+        padding: 0px 0px 0px 55px;
+        justify-content: center;
+    }
+    .nav-item {
+       display: none;
+    }
+    .logo {
+        margin: 8px;
+    }
+    body {
+        width: 100vw;
+        margin: 0px 0px 0px 0px;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .hero-text {
+        display: flex;
+        width: 90vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hero-p {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .hero {
+        background-image: url(/Projecto-integrador/hero-celu.jpg);
+        height: 660px;
+        background-size: 100vw;
+
+        .wrap-hero-text {
+            padding: 3vh 0px 0px 6vw;
+            margin-top: -20px;
+
+            .hero-button {
+                margin-top: 5px;
+                width: 88vw;
+            }
+            .hero-button:active {
+                background-color: #1F8A70;
+            }
+        }
+    }
+    .article-somos {
+        margin-top: 0px;
+        height: 750px;
+        padding: 6vw;
+    }
+    .somos-wrap {
+        width: 90vw;
+    }
+    .titulo2 {
+        font-size: 24px;
+    }
+    .somos-text {
+        font-size: 16px;
+        width: 90vw;
+    }
+    .somos-img {
+        width: 100vw;
+        margin-left: -7vw;
+    }
+    .article-elegirnos {
+        padding: 100px 0px 0px 0px;
+        height: 800px;
+        align-items: flex-start;
+        margin-bottom: -150px;
+
+        .elegirnos-wrap {
+            padding: 7vw;
+        }
+    }
+    .img-elegirnos {
+        width: 95vw;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .propuesta {
+        width: 100vw;
+        height: 500px;
+        background-image: url(/Projecto-integrador/Propuesta-fondo-celu.jpg);
+        background-size: 100vw;
+    }
+    .titulo-propuesta {
+        margin: -80px 0px -30px 0px;
+        font-size: 24px;
+        padding: 0px 0px 0px 0px;
+    }
+    .card {
+        height: fit-content
+    }
+    .icon-wrap {
+        height: 40px;
+    }
+    .propuesta-icon {
+        width: 40px;
+    }
+    .propuesta-text {
+        font-size: 14px;
+        margin: 5px 0px 30px 0px;
+    }
+
+    .noticias {
+        width: 100vw;
+    }
+    .titulo-noticias {
+        padding: 20px 0px 0px 0px;
+        margin: 0px;
+        width: 100vw;
+        height: 10px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    .h-noti {
+        font-size: 24px;
+    }
+    .card-texto {
+        width: 260px;
+        height: fit-content;
+        padding: 0px 0px 0px 0px;
+        gap: 0px;
+    }
+
+    footer {
+        width: 100vw;
+    }
+    .redes {
+        padding: 0px;
+    }
+    .brand-icon {
+        padding: 0px;
+    }
+    .mapa {
+        min-width: 250px;
+    }
+
+    aside {
+        width: 100vw;
+        .copy {
+            font-size: 10px;
+            width: 100vw;
+        }
+    }
+
+    .titulo-form {
+        font-size: 24px;
+    }
+    .text-form {
+        font-size: 16px;
+        width: 90vw;
+    }
+    .form-contacto {
+        padding: 0px 20px 50px 20px;
+        display: block;
+    }
+    form {
+        width: 90vw;
+    }
+    .input-form {
+        width: 90vw;
+    }
+    .wrap-submit-button {
+        justify-content: center;
+        margin-top: 50px;
+    }
+    }
+    
